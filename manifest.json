@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Overdrive Download .odm Button",
+  "version": "1.0",
+  "description": "Automatically modifies Overdrive",
+  "permissions": [
+    "activeTab",
+    "webNavigation",
+    "tabs",
+    "*://*.overdrive.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.overdrive.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_title": "Overdrive Download .odm Button",
+    "default_popup": "popup.html"
+  }
+}
