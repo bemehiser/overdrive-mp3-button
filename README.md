@@ -1,5 +1,7 @@
 # OverDrive .odm Download Button - Firefox Extension
 
+## UPDATE: OverDrive removed/broke the .odm functionality, so this plugin doesn't work any more. Instead look for plugins which allow downloading of libby books. 
+
 Automatically modifies the "Listen now in browser" button to "Download .odm file" to allow easy downloading of the .odm file for use in legacy mp3 file apps.
 
 Previously OverDrive (used by many public libraries) presented a "Download .mp3" button to download an .odm file which allowed for download of mp3 files. In the last couple years this button has been hidden, and OverDrive has been pushing users to use a low quality web player instead of downloading mp3 files. This extension modifies the web player button to download the .odm file so users can download and listen to mp3 files in a player of their choice.
